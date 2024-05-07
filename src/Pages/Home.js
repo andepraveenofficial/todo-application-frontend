@@ -31,7 +31,6 @@ const handleAddTodoButton = async () => {
   const url = "https://todo-application-backend-t0hl.onrender.com/add-todo"
   const response = await axios.post(url, newTodo)
   console.log(response.data)
-
 }
 
 
